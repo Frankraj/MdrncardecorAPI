@@ -10,4 +10,4 @@ services:
     buildCommand: yarn install
     startCommand: yarn start
     autoDeploy: true
-    rootDir: src
+    rootDir: https://github.com/Frankraj/MdrncardecorAPI/edit/main/render.yaml

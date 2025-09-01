@@ -1,0 +1,12 @@
+# Exported from Render on 2025-09-01T12:40:57Z
+services:
+- type: web
+  name: MdrncardecorAPI-2
+  runtime: node
+  repo: https://github.com/Frankraj/MdrncardecorAPI
+  plan: free
+  region: oregon
+  buildCommand: yarn
+  startCommand: yarn start
+  autoDeployTrigger: commit
+version: "1"

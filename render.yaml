@@ -1,7 +1,7 @@
 version: "1"
 
 services:
-    type: web
+  - type: web
     name: MdrncardecorAPI-2
     runtime: node
     repo: https://github.com/Frankraj/MdrncardecorAPI
@@ -10,4 +10,4 @@ services:
     buildCommand: yarn install
     startCommand: yarn start
     autoDeploy: true
-    rootDir:
+    rootDir: src
